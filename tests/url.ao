@@ -1,0 +1,7 @@
+protocol = (("http") Or ("ftp")) Or ("https")
+subdomain = (One Or More (Any Of (("a") To ("z"))), ".") Or (Null)
+
+domain = At Least (3) Times (Any Of ("a-z"))
+suffix = (1) To (2) Times (".", At Least (2) Times (Any Of (("a") To ("z"))))
+
+url = protocol, "://", subdomain, domain, suffix;
