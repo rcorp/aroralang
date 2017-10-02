@@ -14,71 +14,73 @@ A new, simple, high level, open programming language for Pattern Matching & Text
  - An online compiler for ARORA is underway and will be released very soon.
 
 
-#Language Features
+# Language Features
 
-##1. Data Types
+## 1. Data Types
 
-###1.1. Strings
+### 1.1. Strings
 
 1.1.1. Strings are alphanumeric characters between double `"` quotes. Special symbols are also allowed.
 Eg: "abc", "Ab!$%K"
 
 
-###1.2. Operators
+### 1.2. Operators
 
 1.2.1. Operators are like functions.
+
 ```arora
 Any Of ("abc") -> [abc]
 ```
+
 1.2.2. They accept zero or more (1, 2, 3) arguments. 
 1.2.3. They resemble english and can have whitespaces between.
 1.2.4. They use {{sentence}} case.
 1.2.5. They can have any number of operators inside them.
 
-###1.3. User Defined Operators
+### 1.3. User Defined Operators
 
 1.3.1. Users can create their own operators.
 1.3.2. They can have one or more arguments like inbuilt Operators.
 
-##2. Statements
+## 2. Statements
 
 2.1. Statements are Operators separated by a comma `,`.
 2.2. Statements are optionally ended with a semicolon `;` though it is highly recommended to do so.
 2.3. *Coming Soon*
 
-##3. Output
+## 3. Output
 
 *Coming Soon*
 
-#Detailed Docs
+# Detailed Docs
 *Coming Soon*
 
-#Version
+# Version
 *Coming Soon*
 
-#Roadmap
+# Roadmap
 *Coming Soon*
 
-#Tests
+# Tests
 *Coming Soon*
 
-#Credits
+# Credits
 
 The ARORA Language was created by [Gaurav Ramanan](http://in.linkedin.com/in/gaurav21r).
 
-##Authors
+## Authors
  - Gaurav Ramanan [@gaurav21r](http://github.com/gaurav21r)
  - Awaiting more!
 
-##Contributors
+## Contributors
 Waiting! Why don't you join us?
 
-##Sponsors
+## Sponsors
 This project is principally sponsored by RCorp (Ramanan Corporation). Visit [rcorp.co.in](http://rcorp.co.in) to know more about this company.
 
-Sponsorhip opportunities *Coming Soon!*
+Sponsorship opportunities *Coming Soon!*
 
-#License
+# License
 
 The ARORA Language 
 Copyright 2015 Gaurav Ramanan and Ramanan Corporation (RCorp). Code Licensed under [The Apache License](https://github.com/rcorp/aroralang/blob/master/LICENSE).
